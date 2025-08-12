@@ -1,0 +1,41 @@
+def verificar_acesso():
+
+
+cargo input("Qual é o seu cargo? ").lower()
+
+
+dia_da_semana input("Qual é o dia da semana? ").lower()
+
+
+dias_uteis - ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira"]
+
+
+if cargo "gerente":
+
+
+print("Acesso permitido: Gerente tem acesso liberado.")
+
+
+
+elif cargo in ["analista", "estagiario"]:
+
+
+if dia_da_semana in dias_uteis:
+
+
+print ("acesso permitido")
+
+
+else:
+
+
+ print ("acesso negado")
+
+
+else:
+
+
+print("Acesso negado: Cargo não autorizado.")
+
+
+verificar_acesso()
